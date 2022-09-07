@@ -1,0 +1,47 @@
+
+body {
+    padding-top: 7%;
+}
+
+table {
+    border: 1px solid #9D9D9D;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid #9D9D9D;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #9D9D9D;
+    padding: 5px;
+    text-align: center;
+}
+
+.number {
+    text-align: right;
+}
+
+.warning {
+    color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueBG {
+    background-color: #ECF5FF;
+}
+
+.greyBG {
+    background-color: #F0F0F0;
+}
+
+.yellowBG {
+    background-color: #FFFFF4;
+}
