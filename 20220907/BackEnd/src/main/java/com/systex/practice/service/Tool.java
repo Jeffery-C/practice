@@ -13,7 +13,9 @@ public class Tool {
      * @return 2022/08/31
      */
     public static String dateFormatConvert(String dateString) throws ParseException {
-        Date date = new SimpleDateFormat("yyyyMMdd").parse(dateString);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyyMMdd");
+        dateFormat.setLenient(false);
+        Date date = dateFormat.parse(dateString);
         return new SimpleDateFormat("yyyy/MM/dd").format(date);
     }
 
